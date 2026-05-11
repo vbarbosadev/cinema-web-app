@@ -1,1 +1,66 @@
-OLA
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Uma lembranca romantica de uma ida ao cinema, feita para abrir pelo QR Code."
+    >
+    <title>Nosso dia no cinema</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteudo</a>
+
+    <main id="conteudo">
+      <section class="hero" aria-labelledby="titulo-principal">
+        <div class="hero__glow hero__glow--one" aria-hidden="true"></div>
+        <div class="hero__glow hero__glow--two" aria-hidden="true"></div>
+
+        <div class="shell hero__content reveal">
+          <div class="hero__mark" aria-hidden="true">
+            <span aria-hidden="true">&#127916;</span>
+            <span aria-hidden="true">&#9829;</span>
+          </div>
+          <p class="hero__couple" data-field="casal"></p>
+          <h1 id="titulo-principal" data-field="titulo"></h1>
+          <br>
+          <p class="hero__subtitle" data-field="subtitulo"></p>
+       </div>
+      </section>
+
+
+      
+
+      <section class="section gallery-section" aria-labelledby="galeria">
+        <div class="shell">
+          <div class="section__heading reveal">
+            <h2 id="galeria">Nossas fotos aleatórias</h2>
+          </div>
+          <div class="gallery" id="galeria-fotos"></div>
+        </div>
+      </section>
+
+      <section class="section message-section" aria-labelledby="mensagem">
+        <div class="shell shell--narrow">
+          <div class="section__heading reveal">
+            <h2 id="mensagem">Um textinho fofo pq eu amo muuuuuuuuito você</h2>
+          </div>
+          <div class="letter reveal" id="mensagem-texto"></div>
+        </div>
+      </section>
+          
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
